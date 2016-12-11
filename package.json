@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-basis",
+  "description": "ESLint Shareable Config for JavaScript",
+  "version": "0.0.1",
+  "author": {
+    "name": "karoo",
+    "email": "nt10@163.com",
+    "url": "karoo.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/karoo/eslint-config-basis/issues"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  },
+  "homepage": "https://github.com/karoo/eslint-config-basis",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karoo/eslint-config-basis"
+  }
+}
