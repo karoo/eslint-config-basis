@@ -31,4 +31,4 @@ npm i eslint eslint-config-basis --save-dev
 
 # License
 
-MIT
+[MIT](LICENSE)
