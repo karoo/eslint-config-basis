@@ -10,6 +10,9 @@ module.exports = {
     "ecmaVersion": 6
   },
   "rules": {
-    "space-before-function-paren": [2, "always"]
+    // disallow reassigning const variables
+    "no-const-assign": "error",
+    // disallow duplicate class members
+    "no-dupe-class-members": "error"
   }
 }
