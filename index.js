@@ -10,6 +10,8 @@ module.exports = {
     "ecmaVersion": 6
   },
   "rules": {
+    // require super() calls in Constructors of derived classes
+    "constructor-super": "error",
     // disallow reassigning const variables
     "no-const-assign": "error",
     // disallow duplicate class members
@@ -18,6 +20,6 @@ module.exports = {
         "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
         "named": "never", // is for named function expressions (e.g. function foo () {}).
         "asyncArrow": "ignore" // is for async arrow function expressions (e.g. async () => {}). 
-    }],
+    }]
   }
 }
