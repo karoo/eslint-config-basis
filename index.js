@@ -16,6 +16,8 @@ module.exports = {
     "no-const-assign": "error",
     // disallow duplicate class members
     "no-dupe-class-members": "error",
+    // disallow this/super before calling super() in constructors
+    "no-this-before-super": "error",
     "space-before-function-paren": ["error", {
         "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
         "named": "never", // is for named function expressions (e.g. function foo () {}).
