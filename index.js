@@ -18,6 +18,8 @@ module.exports = {
     "no-dupe-class-members": "error",
     // disallow this/super before calling super() in constructors
     "no-this-before-super": "error",
+    // require generator functions to contain yield
+    "require-yield": "error",
     "space-before-function-paren": ["error", {
         "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
         "named": "never", // is for named function expressions (e.g. function foo () {}).
