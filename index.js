@@ -10,6 +10,8 @@ module.exports = {
     "ecmaVersion": 6
   },
   "rules": {
+    // require let or const instead of var
+    "no-var": "error",
     // require super() calls in Constructors of derived classes
     "constructor-super": "error",
     // disallow reassigning const variables
