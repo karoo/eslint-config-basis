@@ -12,6 +12,8 @@ module.exports = {
   "rules": {
     // require let or const instead of var
     "no-var": "error",
+    // require or disallow method and property shorthand syntax for object literals
+    "object-shorthand": "error",
     // require super() calls in Constructors of derived classes
     "constructor-super": "error",
     // disallow reassigning const variables
