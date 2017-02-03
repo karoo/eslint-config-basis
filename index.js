@@ -16,6 +16,8 @@ module.exports = {
     "no-console": "warn",
     // the use of alert
     "no-alert": "warn",
+    // disallow the use of debugger
+    "no-debugger": "error",
     // require or disallow method and property shorthand syntax for object literals
     "object-shorthand": "error",
     // require super() calls in Constructors of derived classes
