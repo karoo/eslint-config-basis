@@ -18,6 +18,8 @@ module.exports = {
     "no-alert": "warn",
     // disallow the use of debugger
     "no-debugger": "error",
+    // disallow duplicate arguments in function definitions
+    "no-dupe-args": "error",
     // require or disallow method and property shorthand syntax for object literals
     "object-shorthand": "error",
     // require super() calls in Constructors of derived classes
