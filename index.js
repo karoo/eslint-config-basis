@@ -20,6 +20,8 @@ module.exports = {
     "no-debugger": "error",
     // disallow duplicate arguments in function definitions
     "no-dupe-args": "error",
+    // disallow assignment operators in conditional expressions
+    "no-cond-assign": "error",
     // require or disallow method and property shorthand syntax for object literals
     "object-shorthand": "error",
     // require super() calls in Constructors of derived classes
