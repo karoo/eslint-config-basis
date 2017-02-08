@@ -20,6 +20,10 @@ module.exports = {
     "no-debugger": "error",
     // disallow duplicate arguments in function definitions
     "no-dupe-args": "error",
+    // disallow duplicate keys in object literals
+    "no-dupe-keys": "error",
+    // disallow duplicate case labels
+    "no-duplicate-case": "error",
     // disallow assignment operators in conditional expressions
     "no-cond-assign": "error",
     // require or disallow method and property shorthand syntax for object literals
