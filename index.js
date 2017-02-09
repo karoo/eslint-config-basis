@@ -24,6 +24,10 @@ module.exports = {
     "no-dupe-keys": "error",
     // disallow duplicate case labels
     "no-duplicate-case": "error",
+    // disallow empty character classes in regular expressions
+    "no-empty-character-class": "error",
+    // disallow empty block statements
+    "no-empty": "error",
     // disallow assignment operators in conditional expressions
     "no-cond-assign": "error",
     // require or disallow method and property shorthand syntax for object literals
