@@ -30,6 +30,12 @@ module.exports = {
     "no-empty": "error",
     // disallow assignment operators in conditional expressions
     "no-cond-assign": "error",
+    // disallow reassigning exceptions in catch clauses
+    "no-ex-assign": "error",
+    // disallow unnecessary boolean casts
+    "no-extra-boolean-cast": "error",
+    // disallow unnecessary semicolons
+    "no-extra-semi": "error",
     // require or disallow method and property shorthand syntax for object literals
     "object-shorthand": "error",
     // require super() calls in Constructors of derived classes
