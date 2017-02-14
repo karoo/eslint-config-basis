@@ -36,6 +36,10 @@ module.exports = {
     "no-extra-boolean-cast": "error",
     // disallow unnecessary semicolons
     "no-extra-semi": "error",
+    // disallow reassigning function declarations
+    "no-func-assign": "error",
+    // disallow variable or function declarations in nested blocks
+    "no-inner-declarations": "error",
     // require or disallow method and property shorthand syntax for object literals
     "object-shorthand": "error",
     // require super() calls in Constructors of derived classes
