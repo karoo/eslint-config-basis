@@ -40,6 +40,16 @@ module.exports = {
     "no-func-assign": "error",
     // disallow variable or function declarations in nested blocks
     "no-inner-declarations": "error",
+    // disallow invalid regular expression strings in RegExp constructors
+    "no-invalid-regexp": "error",
+    // disallow irregular whitespace outside of strings and comments
+    "no-irregular-whitespace": "error",
+    // disallow calling global object properties as functions
+    "no-obj-calls": "error",
+    // disallow multiple spaces in regular expressions
+    "no-regex-spaces": "error",
+    // disallow sparse arrays
+    "no-sparse-arrays": "error",
     // require or disallow method and property shorthand syntax for object literals
     "object-shorthand": "error",
     // require super() calls in Constructors of derived classes
