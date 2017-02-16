@@ -50,6 +50,16 @@ module.exports = {
     "no-regex-spaces": "error",
     // disallow sparse arrays
     "no-sparse-arrays": "error",
+    // disallow confusing multiline expressions
+    "no-unexpected-multiline": "error",
+    // disallow unreachable code after return, throw, continue, and break statements
+    "no-unreachable": "error",
+    // disallow control flow statements in finally blocks
+    "no-unsafe-finally": "error",
+    // require calls to isNaN() when checking for NaN
+    "use-isnan": "error",
+    // enforce comparing typeof expressions against valid strings
+    "valid-typeof": "error",
     // require or disallow method and property shorthand syntax for object literals
     "object-shorthand": "error",
     // require super() calls in Constructors of derived classes
