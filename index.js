@@ -12,6 +12,8 @@ module.exports = {
   "rules": {
     // disallow await inside of loops
     "no-await-in-loop": "error",
+    // disallow unnecessary parentheses
+    "no-extra-parens": "error",
     "space-before-function-paren": ["error", {
         "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
         "named": "never", // is for named function expressions (e.g. function foo () {}).
