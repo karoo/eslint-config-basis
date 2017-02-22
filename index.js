@@ -22,6 +22,28 @@ module.exports = {
     "no-unsafe-negation": "error",
     // enforce valid JSDoc comments
     "valid-jsdoc": "error",
+    // enforce getter and setter pairs in objects
+    "accessor-pairs": "error",
+    // enforce return statements in callbacks of array methods
+    "array-callback-return": "error",
+    // enforce the use of variables within the scope they are defined
+    "block-scoped-var": "error",
+    // enforce that class methods utilize this
+    "class-methods-use-this": "error",
+    // enforce a maximum cyclomatic complexity allowed in a program
+    // "complexity": "error",
+    // require return statements to either always or never specify values
+    // "consistent-return": "error",
+    // enforce consistent brace style for all control statements
+    "curly": "error",
+    // require default cases in switch statements
+    "default-case": "error",
+    // enforce consistent newlines before and after dots
+    "dot-location": "error",
+    // enforce dot notation whenever possible
+    "dot-notation": "error",
+    // require the use of === and !==
+    "eqeqeq": "error",
     "space-before-function-paren": ["error", {
         "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
         "named": "never", // is for named function expressions (e.g. function foo () {}).
