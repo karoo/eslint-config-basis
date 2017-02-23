@@ -44,6 +44,20 @@ module.exports = {
     "dot-notation": "error",
     // require the use of === and !==
     "eqeqeq": "error",
+    // disallow the use of alert, confirm, and prompt
+    "no-alert": "error",
+    // disallow the use of arguments.caller or arguments.callee
+    "no-caller": "error",
+    // disallow division operators explicitly at the beginning of regular expressions
+    "no-div-regex": "error",
+    // disallow empty functions
+    "no-empty-function": "error",
+    // disallow null comparisons without type-checking operators
+    "no-eq-null": "error",
+    // disallow the use of eval()
+    "no-eval": "error",
+    // disallow extending native types
+    "no-extend-native": "error",
     "space-before-function-paren": ["error", {
         "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
         "named": "never", // is for named function expressions (e.g. function foo () {}).
