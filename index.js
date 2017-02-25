@@ -58,6 +58,8 @@ module.exports = {
     "no-eval": "error",
     // disallow extending native types
     "no-extend-native": "error",
+    // disallow unnecessary calls to .bind()
+    "no-extra-bind": "error",
     "space-before-function-paren": ["error", {
         "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
         "named": "never", // is for named function expressions (e.g. function foo () {}).
