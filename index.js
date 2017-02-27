@@ -60,6 +60,8 @@ module.exports = {
     "no-extend-native": "error",
     // disallow unnecessary calls to .bind()
     "no-extra-bind": "error",
+    // disallow unnecessary labels
+    "no-extra-label": "error",
     "space-before-function-paren": ["error", {
         "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
         "named": "never", // is for named function expressions (e.g. function foo () {}).
