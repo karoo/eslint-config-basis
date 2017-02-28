@@ -62,10 +62,60 @@ module.exports = {
     "no-extra-bind": "error",
     // disallow unnecessary labels
     "no-extra-label": "error",
+    // disallow leading or trailing decimal points in numeric literals
+    "no-floating-decimal": error,
+    // disallow assignments to native objects or read-only global variables
+    "no-global-assign": "error",
+    // disallow shorthand type conversions
+    "no-implicit-coercion": "error",
+    // disallow variable and function declarations in the global scope
+    // "no-implicit-globals": "error",
+    // disallow the use of eval()-like methods
+    "no-implied-eval": "error",
+    // disallow this keywords outside of classes or class-like objects
+    "no-invalid-this": "error",
+    // disallow the use of the __iterator__ property
+    // "no-iterator": "error",
+    // disallow labeled statements
+    "no-labels": "error",
+    // disallow unnecessary nested blocks
+    "no-lone-blocks": "error",
+    // disallow function declarations and expressions inside loop statements
+    "no-loop-func": "error",
+    // disallow magic numbers
+    "no-magic-numbers": ["error", { 
+      "ignore": [1]
+    }],
+    // disallow multiple spaces
+    "no-multi-spaces": "error",
+    // disallow multiline strings
+    "no-multi-str": "error",
+    // disallow new operators with the Function object
+    "no-new-func": "error",
+    // disallow new operators with the String, Number, and Boolean objects
+    "no-new-wrappers": "error",
+    // disallow new operators outside of assignments or comparisons
+    "no-new": "error",
+    // disallow octal escape sequences in string literals
+    "no-octal-escape": "error",
+    // disallow reassigning function parameters
+    "no-param-reassign": "error",
+    // disallow the use of the __proto__ property
+    "no-proto": "error",
+    // disallow certain properties on certain objects
+    // "no-restricted-properties": [2, {
+    //     "object": "require"
+    // }]
+    // disallow assignment operators in return statements
+    "no-return-assign": "error",
+    // disallow unnecessary return await
+    // "no-return-await": "error",
+    // disallow javascript: urls
+    "no-script-url": "error",
     "space-before-function-paren": ["error", {
-        "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
-        "named": "never", // is for named function expressions (e.g. function foo () {}).
-        "asyncArrow": "ignore" // is for async arrow function expressions (e.g. async () => {}). 
+      "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
+      "named": "never", // is for named function expressions (e.g. function foo () {}).
+      "asyncArrow": "ignore" // is for async arrow function expressions (e.g. async () => {}). 
     }]
   }
 }
