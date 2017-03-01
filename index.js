@@ -112,6 +112,60 @@ module.exports = {
     // "no-return-await": "error",
     // disallow javascript: urls
     "no-script-url": "error",
+    // disallow comparisons where both sides are exactly the same
+    "no-self-compare": "error",
+    // disallow comma operators
+    "no-sequences": "error",
+    // disallow throwing literals as exceptions
+    "no-throw-literal": "error",
+    // disallow unmodified loop conditions
+    "no-unmodified-loop-condition": "error",
+    // disallow unused expressions
+    "no-unused-expressions": "error",
+    // disallow unnecessary calls to .call() and .apply()
+    "no-useless-call": "error",
+    // disallow unnecessary concatenation of literals or template literals
+    "no-useless-concat": "error",
+    // disallow unnecessary escape characters
+    "no-useless-escape": error,
+    // disallow void operators
+    "no-void": "error",
+    // disallow specified warning terms in comments
+    "no-warning-comments": "error",
+    // disallow with statements
+    "no-with": "error",
+    // require using Error objects as Promise rejection reasons
+    "prefer-promise-reject-errors": "error",
+    // enforce the consistent use of the radix argument when using parseInt()
+    "radix": "error",
+    // disallow async functions which have no await expression
+    "require-await": "error",
+    // require var declarations be placed at the top of their containing scope
+    "vars-on-top": "error",
+    // require parentheses around immediate function invocations
+    "wrap-iife": "any",
+    // require or disallow “Yoda” conditions
+    "yoda": "error",
+    // require or disallow strict mode directives
+    "strict": "global",
+    // require or disallow initialization in variable declarations
+    "init-declarations": "error",
+    // disallow deleting variables
+    "no-catch-shadow": "error",
+    // disallow labels that share a name with a variable
+    "no-label-var": "error",
+    // disallow specified global variables
+    // "no-restricted-globals": ["error"],
+    // disallow identifiers from shadowing restricted names
+    "no-shadow-restricted-names": "error",
+    // disallow variable declarations from shadowing variables declared in the outer scope
+    "no-shadow": "error",
+    // disallow initializing variables to undefined
+    "no-undef-init": "error",
+    // disallow the use of undefined as an identifier
+    "no-undefined": "error",
+    // disallow the use of variables before they are defined
+    "no-use-before-define": "error",
     "space-before-function-paren": ["error", {
       "anonymous": "never",  // is for anonymous function expressions(e.g. function () {}).
       "named": "never", // is for named function expressions (e.g. function foo () {}).
