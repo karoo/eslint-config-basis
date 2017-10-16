@@ -12,7 +12,8 @@ module.exports = {
     "react"
   ],
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 6,
+    "sourceType": "module",
   },
   "env": {
     "browser": true,
